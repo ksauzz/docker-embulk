@@ -1,0 +1,4 @@
+#!/bin/bash
+
+jar=`ls -1 /embulk/*.jar`
+java -jar $jar "$@"

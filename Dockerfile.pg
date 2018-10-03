@@ -1,0 +1,5 @@
+FROM ksauzz/embulk:0.0.1
+
+RUN embulk gem install embulk-input-postgresql:0.9.3 embulk-output-postgresql:0.8.0
+
+CMD ["embulk"]
